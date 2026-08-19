@@ -1,0 +1,7 @@
+system:index,elev_median,elev_min,lat,lon,site_no,.geo
+0,-0.25,-0.25,66.63000000000001,66.6,Ob,"{""type"":""MultiPoint"",""coordinates"":[]}"
+1,-6.449999809265137,-6.449999809265137,69.37340000000002,86.12130000000002,Yenisey,"{""type"":""MultiPoint"",""coordinates"":[]}"
+2,21.350000381469727,21.350000381469727,66.76905,123.39458,Lena,"{""type"":""MultiPoint"",""coordinates"":[]}"
+3,2.400000095367431,0.9000000357627869,68.75,161.3,Kolyma,"{""type"":""MultiPoint"",""coordinates"":[]}"
+4,10.449999809265137,9.949999809265137,61.93,-162.88,Yukon,"{""type"":""MultiPoint"",""coordinates"":[]}"
+5,5.450000286102295,5.450000286102295,67.45,-133.74,Mackenzie,"{""type"":""MultiPoint"",""coordinates"":[]}"

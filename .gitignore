@@ -1,0 +1,67 @@
+# History files
+.Rhistory
+.Rapp.history
+# Session Data files
+.RData
+# User-specific files
+.Ruserdata
+# Example code in package build process
+*-Ex.R
+# Output files from R CMD build
+/*.tar.gz
+# Output files from R CMD check
+/*.Rcheck/
+# RStudio files
+.Rproj.user/
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+# R Environment Variables
+.Renviron
+# macOS
+.DS_Store
+# R code
+R/1_arctic_taymyr_slump_training.R
+R/4_arctic_taymyr_slump_ndvi.R
+R/panarctic_slump_ssc_pilot.R
+R/pro_glacial_ssc.R
+# Figures and outputs
+figures/
+# Data and writing (not part of the archive)
+imports/*
+writing/
+
+# Don't exclude required csv and RDS files 
+!imports/taymyr_peninsula_thaw_slump_metadata.csv
+!imports/taymyr_slumps_by_wshd_20250820.csv
+!imports/ArcticGRO-water-quality.knit.csv
+!imports/berhnard_2021_thaw_slump_inventory.csv
+!imports/ls_arctic_gro_training_station_topo.csv
+!imports/taymyr_SlumpArea_selected.csv
+!imports/taymyr_estuary1_slumps_w_wshd.csv
+!imports/taymyr_estuary2_slumps_w_wshd.csv
+!imports/taymyr_peninsula_climate_ERA5_Land.csv
+!imports/taymyr_slumpArea_unfiltered.csv
+!imports/taymyr_slump_train_2024_20250605.csv
+!imports/sentinel_2_arcticgro_comparison_rivers_2016_2026_20scale.csv
+!imports/taymyr_peninsula_river_ls_training_station_topo.csv
+!imports/taymyr_slumps_by_wshd_20250820.csv
+!imports/taymyr_slumps_validated_20250620.csv
+!imports/SSC_cluster_function.rds
+!imports/cluster_centers.rds
+!imports/site_band_scaling_all.rds
+
+# PyCharm / IDE files
+code/python/**/.idea/
+# Python
+__pycache__/
+*.pyc
+thaw_slump_erosion_taymyr_peninsula_20241116_maintext.pdf
