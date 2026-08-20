@@ -145,6 +145,7 @@ site_topo_metadata <- merge(
   river_russian_name,
   by = c('river'))
 
+fwrite(site_topo_metadata, paste0(wd_imports, 'taymyr_final_watershed_metadata.csv'))
 # Import slump area data, summarized by watershed
 slumps_by_watershed <- merge(
   fread(file = paste0(wd_imports,'taymyr_slumps_by_wshd_20250820.csv'))[

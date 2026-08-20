@@ -193,6 +193,8 @@ slump_first_year_and_max_size <- slump_annual_sum[
   by = .(label2024, first_year, latitude, longitude)
 ]  
 
+fwrite(slump_annual_sum, file = paste0(wd_imports, 'taymyr_slump_annual_sum_and_watershed.csv'))
+
 fwrite(slump_first_year_and_max_size, file = paste0(wd_imports, 'slump_first_year_and_max_size.csv'))
 ggplot(slump_annual_sum, aes(x = first_year)) +
   geom_bar() +
@@ -524,7 +526,7 @@ ggsave(example_slump_erosion_timeseries_plot, filename = paste0(wd_figures, regi
        width = 6.5, height = 5, useDingbats = F) 
 
 example_slump_erosion_area_timeseries_plot <- 
-  ggplot(test_slumps[month == 7], aes(x = month/12 + year, y = Area)) +
+  ggplot(test_slumps[month %in% c(7,8)], aes(x = month/12 + year, y = Area)) +
   geom_line() +
   # ggplot(slump_area[ID %chin% slump_metadata[49:100,ID]], aes(x = year + month/12, y = rolling_median_area_w5)) +
   # stat_summary(fun = 'mean', aes(color = factor(month)), geom = 'line') +
