@@ -1,7 +1,3 @@
----
-bibliography: references.bib
----
-
 # Arctic Rivers
 
 ***Investigating the 2020 Taymyr Peninsula permafrost thaw slump event and its aftermath***
@@ -24,7 +20,7 @@ Rivers have responded accordingly, with increased suspended sediment concentrati
 <img src="images/f02_taymyr_SSC_timeseries_by_site.png" width="600">
 </p>
 
-This work is in review at Cryosphere, with a [pre-print available](https://doi.org/10.5194/egusphere-2025-5691) [@dethier2025]. The approach builds on existing methods for satellite-based estimation of SSC, extending them to Sentinel-2 data [@dethier2020; @dethier2022]. This allows the tracking of rapid slump failure on a near-daily basis in 2020.
+This work is in review at *The Cryosphere*, with a [pre-print available](https://doi.org/10.5194/egusphere-2025-5691) ([Dethier et al., 2025](#ref-dethier2025)). The approach builds on existing methods for satellite-based estimation of SSC, extending them to Sentinel-2 data ([Dethier et al., 2020](#ref-dethier2020); [Dethier et al., 2022](#ref-dethier2022)). This allows the tracking of rapid slump failure on a near-daily basis in 2020.
 
 We automated slump identification and delineation using conventional and machine learning methods for Landsat and Sentinel-2 data in [Google Earth Engine](https://earthengine.google.com/).
 
@@ -37,3 +33,14 @@ Slumps are outlined in white in the false color image (RGB: near-infrared, red, 
 <p align="center">
 <img src="images/Taymyr_slumps_outlined_example.png" width="600">
 </p>
+
+## References
+
+<a id="ref-dethier2020"></a>
+Dethier, E. N., Renshaw, C. E., & Magilligan, F. J. (2020). Toward improved accuracy of remote sensing approaches for quantifying suspended sediment: Implications for suspended-sediment monitoring. *Journal of Geophysical Research: Earth Surface*, 125(7), e2019JF005033. https://doi.org/10.1029/2019JF005033
+
+<a id="ref-dethier2022"></a>
+Dethier, E. N., Renshaw, C. E., & Magilligan, F. J. (2022). Rapid changes to global river suspended sediment flux by humans. *Science*, 376(6600), 1447–1452. https://doi.org/10.1126/science.abn7980
+
+<a id="ref-dethier2025"></a>
+Dethier, E. N., Erikson, C. M., & Renshaw, C. E. (2025). Thaw slump erosion accelerates fluvial sediment transport after a heatwave on the Taymyr Peninsula, Russia. *EGUsphere* [preprint], 1–35. https://doi.org/10.5194/egusphere-2025-5691
